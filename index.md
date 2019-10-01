@@ -3,7 +3,7 @@
 
 _Welcome,_
 
-_you have been invited to join the prestigious Nickel club!_
+_You have been invited to join the prestigious Nickel club!_
 
 ### What is the Nickel Club?
 
@@ -26,8 +26,8 @@ There are a number of activities that will earn you Nickels.
 <p>
 <h4>Capturing photos</h4>
 
-If you take a photo of Nick that's good enough for a Social Media Profile Pic or
-Online Dating you get two Nickels.
+If you take a photo of Nick that's good enough for his Social Media or Online
+Dating Profile Pic you earn two Nickels.
 
 </p>
 <p>
@@ -89,11 +89,11 @@ Nick will catch up with you and deliver the following prizes
   </tr>
   <tr>
     <td>Negotiable</td>
-    <td>Having Nick help you train your own behaviours</td>
+    <td>Have Nick help you train your own behaviours</td>
   </tr>
     <tr>
     <td>Negotiable</td>
-    <td>Having Nick buying you something else</td>
+    <td>Have Nick buy you something else</td>
   </tr>
 </table>
 
@@ -123,5 +123,5 @@ Nick will track your Nickel balance for you.
 
 ### Leaving the Nickel Club
 
-You can instantly leave the Nickel club at any time.
-(although probably best to let Nick know)
+You can instantly leave the Nickel club at any time
+(although probably best to let Nick know).
