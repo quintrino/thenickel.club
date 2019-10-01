@@ -1,23 +1,23 @@
 # ----
 # Site
 
-title: Edition Template
-url: "https://long-pig.cloudvent.net"
+title: Nickel Club
+url: "www.thenickel.club"
 baseurl:
 google_analytics_key:
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product documentation template for Jekyll.
+description: Self Improvement one bet at a time.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Edition Template
+  name: Nickel Club
   links:
-    - https://github.com/CloudCannon/edition-jekyll-template
+    -
 
 # -----
 # Build
@@ -44,13 +44,11 @@ collections:
     output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: default
-  -
-    scope:
+  - scope:
       path: ""
       type: "docs"
     values:
@@ -63,8 +61,7 @@ defaults:
         content:
           width: 800
           height: 2000
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
