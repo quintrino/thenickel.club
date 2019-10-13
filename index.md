@@ -46,6 +46,10 @@ If you help train Nick on various behaviours he's working on you'll earn Nickels
   </tr>
   <tr>
     <td>1 Nickel</td>
+    <td>Change one of Nick's beliefs</td>
+  </tr>
+  <tr>
+    <td>1 Nickel</td>
     <td>Catch Nick Agreeing to help without him setting a timeframe</td>
   </tr>
   <tr>
