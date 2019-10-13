@@ -58,6 +58,10 @@ If you help train Nick on various behaviours he's working on you'll earn Nickels
   </tr>
   <tr>
     <td>1 Nickel</td>
+    <td>Pointing out that Nick is standing upright with his legs crossed</td>
+  </tr>
+  <tr>
+    <td>1 Nickel</td>
     <td>Suggesting a new Behaviour Nick considers worthy for this table</td>
   </tr>
 </table>
