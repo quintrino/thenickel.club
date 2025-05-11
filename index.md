@@ -58,6 +58,10 @@ If you help train Nick on various behaviours he's working on you'll earn Nickels
   </tr>
   <tr>
     <td>1 Nickel</td>
+    <td>Reporting a coding, spelling, or grammatical error on any of Nick's websites</td>
+  </tr>
+  <tr>
+    <td>1 Nickel</td>
     <td>Pointing out that Nick is standing upright with his legs crossed</td>
   </tr>
   <tr>
