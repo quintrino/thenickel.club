@@ -36,6 +36,7 @@ If you help train Nick on various behaviours he's working on you'll earn Nickels
 | 1 Nickel     | Suggest a new behaviour Nick considers worthy for this table               |
 | 1 Nickel     | Catch Nick agreeing to help without him setting a timeframe                |
 | 1 Nickel     | Point out that Nick arrived late                                           |
+| 1 Nickel     | Suggest new apps or workflows that demonstrably improve Nick's life.       |
 | 1 Nickel     | Report a coding, spelling, or grammatical error on any of Nick's websites  |
 | 1 Nickel     | Point out that Nick is standing upright with his legs crossed              |
 | 1+ Nickels   | Update Nick on one of his interests with valuable information              |
