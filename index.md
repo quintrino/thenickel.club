@@ -56,6 +56,8 @@ Nick will catch up with you and deliver the following prizes:
 | Cost       | Prize                                         |
 |------------|-----------------------------------------------|
 | 1 Nickel   | 1 Coffee/Tea                                  |
+| 1 Nickel   | 10 minutes of Nick Brainstorming solutions    |
+| 1 Nickel   | 1 hour of body doubling                       |
 | 2 Nickels  | 1 Beer/Alcoholic Beverage or equivalent       |
 | 4 Nickels  | 1 Meal                                        |
 | Negotiable | Have Nick help you train your own behaviours  |
