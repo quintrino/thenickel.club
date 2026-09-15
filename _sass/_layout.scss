@@ -105,9 +105,9 @@ header {
 		letter-spacing: 0;
 		font-weight: 600;
 		text-indent: 0;
-		@include display-flex();
-		@include flex-direction(row);
-		@include align-items(center);
+		@include mixins.display-flex();
+		@include mixins.flex-direction(row);
+		@include mixins.align-items(center);
 		border-bottom: 1px solid rgba(0, 0, 0, 0.075);
 
 		img {
@@ -265,8 +265,8 @@ nav > ul {
 
 .settings-panel-example {
 	@extend p;
-	@include display-flex();
-	@include flex-direction(column);
+	@include mixins.display-flex();
+	@include mixins.flex-direction(column);
 
 	.example {
 		max-width: 300px;
@@ -280,10 +280,10 @@ nav > ul {
 	}
 
 	@media (min-width: 960px) {
-		@include flex-direction(row);
+		@include mixins.flex-direction(row);
 
 		.details {
-			@include flex(1);
+			@include mixins.flex(1);
 			margin-right: 20px;
 		}
 
@@ -292,7 +292,7 @@ nav > ul {
 		}
 
 		.example {
-			@include flex(0 0 300px);
+			@include mixins.flex(0 0 300px);
 			max-width: 100%;
 		}
 	}
