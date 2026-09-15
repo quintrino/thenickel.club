@@ -39,9 +39,14 @@ If you help train Nick on various behaviours he's working on you'll earn Nickels
 | 1 Nickel     | Suggest new apps or workflows that demonstrably improve Nick's life.       |
 | 1 Nickel     | Report a coding, spelling, or grammatical error on any of Nick's websites  |
 | 1 Nickel     | Point out that Nick is standing upright with his legs crossed              |
+| 1 Nickel     | Coworking with substantial productivity benefits                           |
+| 1+ Nickels   | Introduce Nick to highly experiential individuals                          |
+| 1+ Nickels   | Introduce Nick to highly agentic individuals                               |
 | 1+ Nickels   | Update Nick on one of his interests with valuable information              |
 | 1+ Nickels   | Invite Nick to, or inform him about, a novel/immersive experience          |
 | 2+ Nickels   | Change one of Nick's beliefs                                               |
+| 5+ Nickels   | Facilitate Meaningful change in Nick's Life                                |
+| 8+ Nickels   | Facilitate Meaningful change in Nick's Career                              |
 
 <br>
 
