@@ -1,3 +1,6 @@
+@use "variables";
+@use "normalize";
+@use "mixins";
 input::-ms-clear,
 input::-ms-reveal {
 	display: none !important;
@@ -6,7 +9,7 @@ input::-ms-reveal {
 body {
 	height: auto;
 	overflow-x: hidden;
-	background-color: $body-background-color;
+	background-color: variables.$body-background-color;
 
 	&.nav-open {
 		overflow: hidden;
@@ -23,7 +26,7 @@ body {
 
 	&::before {
 		content: "";
-		background-color: $content-background-color;
+		background-color: variables.$content-background-color;
 		position: fixed;
 		top: 0;
 		right: 0;
@@ -32,8 +35,8 @@ body {
 		z-index: -1;
 	}
 
-	@media (min-width: $mobile-break) {
-		padding: 0 0 0 $nav-width;
+	@media (min-width: variables.$mobile-break) {
+		padding: 0 0 0 variables.$nav-width;
 
 		&.nav-open {
 			overflow: auto;
@@ -50,8 +53,8 @@ body {
 
 		&::after {
 			left: 0;
-			width: $nav-width;
-			background-color: $nav-background-color;
+			width: variables.$nav-width;
+			background-color: variables.$nav-background-color;
 		}
 
 		#search-input,
@@ -60,25 +63,25 @@ body {
 		}
 
 		&::before {
-			left: $nav-width;
+			left: variables.$nav-width;
 			right: 0;
-			background-color: $content-background-color;
+			background-color: variables.$content-background-color;
 		}
 	}
 }
 
 .main {
-	margin-top: $space + $nav-header-height;
+	margin-top: variables.$space + variables.$nav-header-height;
 
-	@media (min-width: $mobile-break) {
+	@media (min-width: variables.$mobile-break) {
 		margin-top: 0;
 	}
 }
 
 header {
 	$emblem-size: 35px;
-	$emblem-vertical-padding: calc(($nav-header-height - $emblem-size) / 2);
-	$emblem-horizontal-padding: $space;
+	$emblem-vertical-padding: calc((variables.$nav-header-height - $emblem-size) / 2);
+	$emblem-horizontal-padding: variables.$space;
 
 	position: absolute;
 	top: 0;
@@ -86,7 +89,7 @@ header {
 	right: 0;
 	overflow-x: hidden;
 	z-index: 1;
-	background-color: $nav-background-color;
+	background-color: variables.$nav-background-color;
 
 	ul {
 		padding: 0;
@@ -95,9 +98,9 @@ header {
 
 	h1 {
 		padding: $emblem-vertical-padding $emblem-horizontal-padding;
-		height: $nav-header-height;
+		height: variables.$nav-header-height;
 		box-sizing: border-box;
-		background-color: $brand-colour;
+		background-color: variables.$brand-colour;
 		color: #fff;
 		margin: 0;
 		font-size: 1.7rem;
@@ -113,11 +116,11 @@ header {
 		img {
 			height: $emblem-size;
 			width: $emblem-size;
-			margin-right: $space - 5;
+			margin-right: variables.$space - 5;
 		}
 	}
 
-$nav-image: $baseurl + "/images/menu.svg";
+$nav-image: variables.$baseurl + "/images/menu.svg";
 	.open-nav {
 		background-image: url($nav-image);
 		background-color: transparent;
@@ -141,9 +144,9 @@ $nav-image: $baseurl + "/images/menu.svg";
 		}
 	}
 
-	@media (min-width: $mobile-break) {
+	@media (min-width: variables.$mobile-break) {
 		background-color: transparent;
-		width: $nav-width;
+		width: variables.$nav-width;
 		right: auto;
 		bottom: auto;
 
@@ -159,8 +162,8 @@ $nav-image: $baseurl + "/images/menu.svg";
 
 .content {
 	position: relative;
-	background-color: $content-background-color;
-	color: $content-color;
+	background-color: variables.$content-background-color;
+	color: variables.$content-color;
 
 	h3::before {
 		content: "";
@@ -171,9 +174,9 @@ $nav-image: $baseurl + "/images/menu.svg";
 
 .content,
 .page-header {
-	max-width: $content-max-width;
-	padding: 0 ($space + 5) $space;
-	margin: $space auto 0 auto;
+	max-width: variables.$content-max-width;
+	padding: 0 (variables.$space + 5) variables.$space;
+	margin: variables.$space auto 0 auto;
 }
 
 .page-header {
@@ -196,7 +199,7 @@ $nav-image: $baseurl + "/images/menu.svg";
 		margin-left: -4px;
 	}
 
-	@media (min-width: $mobile-break) {
+	@media (min-width: variables.$mobile-break) {
 		h2 {
 			font-size: 2.65rem;
 		}
@@ -206,7 +209,7 @@ $nav-image: $baseurl + "/images/menu.svg";
 		}
 	}
 
-	@media (min-width: $full-width-break) {
+	@media (min-width: variables.$full-width-break) {
 		margin-top: 55px;
 	}
 }
@@ -215,13 +218,13 @@ nav,
 header > form {
 	display: none;
 
-	@media (min-width: $mobile-break) {
+	@media (min-width: variables.$mobile-break) {
 		display: block;
 	}
 }
 
 nav > ul {
-	padding: calc($space / 2) 0;
+	padding: calc(variables.$space / 2) 0;
 
 	& + ul {
 		border-top: 1px solid rgba(0, 0, 0, 0.075);
@@ -246,7 +249,7 @@ nav > ul {
 		color: #666;
 		text-decoration: none;
 		font-size: 1.4rem;
-		padding: calc($space / 2) 0 calc($space / 2) $space * 2;
+		padding: calc(variables.$space / 2) 0 calc(variables.$space / 2) variables.$space * 2;
 		display: block;
 	}
 
@@ -259,7 +262,7 @@ nav > ul {
 	&.top-level > a {
 		line-height: 1.5;
 		font-weight: 600;
-		padding-left: $space;
+		padding-left: variables.$space;
 	}
 }
 
@@ -309,8 +312,8 @@ h3 + .warning {
 
 
 h4 code {
-	background: $nav-background-color;
-	color: $content-color;
+	background: variables.$nav-background-color;
+	color: variables.$content-color;
 	background-color: transparent;
 	font-weight: 700;
 	padding: 0;
@@ -337,7 +340,7 @@ h4 svg {
 	position: absolute;
 	top: 5px;
 	line-height: 1;
-	color: $brand-colour;
+	color: variables.$brand-colour;
 	padding-left: 5px;
 }
 
@@ -377,7 +380,7 @@ h4 svg {
 
 	&:focus {
 		outline: none;
-		border-left-color: $brand-colour;
+		border-left-color: variables.$brand-colour;
 	}
 }
 
@@ -405,7 +408,7 @@ h4 svg {
 	font-weight: bold;
 
 	&.major {
-		background: $brand-colour;
+		background: variables.$brand-colour;
 		color: #fff;
 	}
 }
@@ -415,14 +418,14 @@ blockquote {
 	padding: 10px 15px;
 	margin-left: -15px;
 	margin-right: -10px;
-	background-color: $brand-colour-light;
-	border-color: $brand-colour;
+	background-color: variables.$brand-colour-light;
+	border-color: variables.$brand-colour;
 
 	p:last-child {
 		margin-bottom: 0;
 	}
 
-	@media (max-width: $full-width-break) {
+	@media (max-width: variables.$full-width-break) {
 		margin-left: 0;
 		margin-right: 0;
 	}
